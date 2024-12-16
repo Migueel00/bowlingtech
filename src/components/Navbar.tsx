@@ -10,7 +10,7 @@ export const Navbar = () => {
     "Features",
     "Pricing",
     "Company",
-    "Blog",
+    "Bar",
   ];
 
   return (
