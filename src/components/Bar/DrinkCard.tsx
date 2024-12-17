@@ -10,7 +10,7 @@ interface DrinkCardProps {
 const DrinkCard = ({ image, name, description, price }: DrinkCardProps) => {
     return (
         <div className="w-full max-w-sm p-4 border rounded-lg shadow-lg bg-white hover:shadow-xl transition-shadow duration-300">
-            <div className="relative w-full h-48 rounded-lg overflow-hidden border border-gray-300">
+            <div className="relative w-full h-56 rounded-lg overflow-hidden border border-gray-300">
                 <Image 
                     src={`/img/${image}`}
                     alt={`${name} image`}

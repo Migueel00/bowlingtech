@@ -14,9 +14,9 @@ export const Hero = () => {
               BowlingTech new form to bowling
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Discover a new way to enjoy bowling with our advanced AI system, making every game interactive and personalized.
-              Designed for everyone, Bowling AI Center is the perfect place for pros, friends, and families alike.
-              Join the AI-powered bowling revolution today!
+              At our bowling center, we are committed to providing an accessible and fun space for everyone.
+              We use artificial intelligence to adapt the game to the needs of each user, ensuring that both people with disabilities and any player can enjoy a personalized experience.
+              With advanced technology and accessible design, we seek to make leisure a shared experience without barriers.  
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
