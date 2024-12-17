@@ -10,15 +10,7 @@ export default function Home() {
         <Carrousel/>
       </div>
       <Hero />
-      <SectionTitle
-        preTitle="Our Bar"
-        title="DISCOVER OUR BAR"
-      >  
-      </SectionTitle>
-
-      <div className="flex items-center">
-        <Bar/>
-      </div>
+  
     </Container>
   );
 }

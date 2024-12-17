@@ -11,12 +11,13 @@ export const Hero = () => {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-blue-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-blue-800">
-              BowlingTech new form to bowling
+              BowlingTech
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              At our bowling center, we are committed to providing an accessible and fun space for everyone.
-              We use artificial intelligence to adapt the game to the needs of each user, ensuring that both people with disabilities and any player can enjoy a personalized experience.
-              With advanced technology and accessible design, we seek to make leisure a shared experience without barriers.  
+              En nuestra bolera, nos comprometemos a ofrecer un espacio accesible y divertido para todos.
+              Usamos inteligencia artificial para adaptar el juego a las necesidades de cada usuario, asegurando que tanto personas con discapacidad como cualquier
+              jugador puedan disfrutar de una experiencia personalizada.
+              Con tecnología avanzada y un diseño accesible, buscamos hacer del ocio una experiencia compartida sin barreras.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
@@ -25,7 +26,7 @@ export const Hero = () => {
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-cyan-600 rounded-md ">
-                Discover
+                Descubre
               </a>
             </div>
           </div>
