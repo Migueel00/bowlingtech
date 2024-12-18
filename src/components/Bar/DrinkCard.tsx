@@ -16,7 +16,6 @@ const DrinkCard = ({ image, name, description, price }: DrinkCardProps) => {
                     alt={`${name} image`}
                     layout="fill"
                     objectFit="cover"
-                    
                 />
             </div>
             <div className="mt-4 text-center">
