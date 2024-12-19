@@ -9,10 +9,10 @@ import logoInsta from "../../public/img/logos/logoInstagram.png";
 export default function Home() {
   return (
     <Container>
-      <Hero />
       <div className="flex w-[100%] justify-center">
         <Carrousel/>
       </div>
+      <Hero />
       <Container>
         <div className="mt-10">
           <div className="flex justify-center">
