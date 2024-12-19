@@ -28,11 +28,12 @@ export default function Shop(){
     return (
         <div className="flex justify-center p-4 w-[100%]">
             <div className="w-[90%] flex flex-wrap justify-center">
-                {merchProducts.map(merch => (
+                {merchProducts.map((merch, index) => (
                     <MerchCard 
                         productImage={merch.image}
                         productName={merch.name}
                         productPrice={merch.price}
+                        key={index}
                     />
                 ))}
             </div>
